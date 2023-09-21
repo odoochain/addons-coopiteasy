@@ -11,6 +11,11 @@
             name="journal_id"
             eval="ref('account_customer_wallet.account_journal_customer_wallet_demo')"
         />
+        <field name="split_transactions" eval="True" />
+        <field
+            name="outstanding_account_id"
+            eval="ref('account_customer_wallet.account_account_customer_wallet_demo')"
+        />
    </record>
 
 </odoo>
